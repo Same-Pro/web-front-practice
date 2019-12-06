@@ -42,6 +42,7 @@ export default {
   modules: [
     // Doc: https://github.com/nuxt-community/dotenv-module
     '@nuxtjs/dotenv',
+    'nuxt-fontawesome',
   ],
   /*
   ** Build configuration
@@ -53,5 +54,14 @@ export default {
     */
     extend (config, ctx) {
     }
+  },
+  //この部分を追記
+  fontawesome: {
+    imports: [
+      {
+        set: '@fortawesome/free-solid-svg-icons',
+        icons: ['fas']
+      }
+    ]
   }
 }
