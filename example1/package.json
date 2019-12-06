@@ -1,0 +1,19 @@
+{
+  "name": "example1",
+  "version": "1.0.0",
+  "description": "My solid Nuxt.js project",
+  "author": "kumacoLt",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "nuxt": "^2.0.0",
+    "element-ui": "^2.4.11",
+    "@nuxtjs/dotenv": "^1.4.0"
+  },
+  "devDependencies": {}
+}
